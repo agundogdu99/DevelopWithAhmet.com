@@ -1,0 +1,75 @@
+body {
+    background-color: #f6f5f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+.about-me {
+   max-width: 600px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.my-name {
+    color: #048998;
+}
+
+p.aboutme-p {
+    font-size: 18px;
+}
+
+p.aboutme-p2 {
+    font-size: 14px;
+}
+
+ hr {
+    border-style: dashed;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-width: 15px;
+    border-spacing: 50px;
+    border-color: #048998;
+    opacity: 0.3;
+    max-width: 240px;
+}
+
+/* Nav Bar */
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display:inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 12px;
+}
+
+
+ul.nav-ul {
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    font-size: 18px;
+    color: #048998;
+    display:contents;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+  }
+
+li.float-left {
+    position:relative;
+  }
+
+li.float-right {
+    position:relative;
+    float:right;
+  }
+  
+ 
