@@ -15,3 +15,7 @@ https://htmlcolorcodes.com/color-picker/
 https://www.cssfontstack.com/
 
 https://specificity.keegan.st/
+
+https://easings.net/
+
+https://unsplash.com/
