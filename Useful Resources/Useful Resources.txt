@@ -21,3 +21,9 @@ https://easings.net/
 https://unsplash.com/
 
 flexboxfroggy.com
+
+https://ui-patterns.com/
+
+https://www.lightningdesignsystem.com/
+https://m3.material.io/
+
