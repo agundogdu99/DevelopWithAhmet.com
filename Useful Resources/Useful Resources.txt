@@ -27,3 +27,18 @@ https://ui-patterns.com/
 https://www.lightningdesignsystem.com/
 https://m3.material.io/
 
+https://codepip.com/games/grid-garden/ OR https://cssgridgarden.com/
+
+https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
+
+https://www.taniarascia.com/you-dont-need-a-framework/
+
+http://necolas.github.io/normalize.css/
+http://meyerweb.com/eric/tools/css/reset/
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+https://content.codecademy.com/courses/freelance-1/unit-5/screen-sizes.png
+
+https://cdnjs.com/
+
