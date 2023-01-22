@@ -42,3 +42,10 @@ https://content.codecademy.com/courses/freelance-1/unit-5/screen-sizes.png
 
 https://cdnjs.com/
 
+
+
+
+https://www.programiz.com/search/reduce
+https://www.programiz.com/javascript
+
+https://www.digitalocean.com/community/tutorials/how-to-use-array-methods-in-javascript-iteration-methods
