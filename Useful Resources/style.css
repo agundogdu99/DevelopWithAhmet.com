@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+:root {
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(236, 232, 221);
+}
+
+#my-logo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    color: rgb(7, 57, 97);
+}
+
+.navbar-item span, .navbar-menu .navLinks:hover {
+    color: rgb(255, 0, 128);
+}
+
+.hero {
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9)),url("./images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.welcomeMessage, .welcomeMessageDev {
+    font-size: 4rem;
+    font-family: 'Jura', sans-serif;
+    color: rgb(223, 228, 231);
+    letter-spacing: 8px;
+}
+
+.myImg {
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px auto;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    /* border: 6px solid white; */
+    box-shadow: 0 0 40px rgba(255, 237, 237, 0.678);
+}
+
+
+/* About Me section */
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer div {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe {
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+
+.computerImg {
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .hero {
+        height: 80vh;
+    }
+
+    #my-logo {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .welcomeMessageDev {
+        font-size: 1.7rem;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .welcomeMessage {
+        font-size: 3rem;
+    }
+
+
+
+    /* About Me section */
+
+    .aboutContainer {
+    flex-direction: column;
+    }
+
+    .reverseColumn {
+        flex-direction: column-reverse; !important
+    }
+
+    .aboutMe {
+        line-height: 2rem;
+        padding: 30px;
+    }
+
+
+}
