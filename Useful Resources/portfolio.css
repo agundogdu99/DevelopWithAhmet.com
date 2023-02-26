@@ -1,0 +1,74 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  /* background:
+    linear-gradient(to bottom right, #3C4BBD 15%, transparent),
+    radial-gradient(circle at 100% 0%, rgba(255,255,255,.2) 10%, transparent 20%) center center / 15px 15px,
+    linear-gradient(to bottom right, #3C4BBD, #57ADD8); */
+}
+
+.myPortfolioTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.portfolioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* position: relative; */
+    perspective: 40em;
+    transform-style: preserve-3d;
+  }
+  
+  .portfolioCard {
+    height: 200px;
+    width: 400px;
+    margin: 0 30px 40px 30px;
+    /* transform: translateX(10px) rotateY(25deg) rotateX(10deg); */
+    background: rgba(249, 197, 26, 0.932);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .portfolioCard:hover {
+    transform:scale(1.03)
+  }
+  
+  .portfolioCard p {
+    font-size: 45px;
+    font-weight: 900;
+  }
+  
+  .portfolioCard .enclosed {
+    background: #000;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    padding: 0 5px;
+    border-radius: 10px;
+    /* display: inline-block;
+    transform: translate(-1px, 1px) scale(0.75);
+    transform-origin: right center; */
+  }  
+  
+
+
+  .myPortfolioTitle h2 {
+    text-align: center;
+  }

@@ -66,12 +66,61 @@ body {
 .aboutMe {
     line-height: 2.5rem;
     text-align: center;
+    padding: 0 10%;
 }
 
 
 .computerImg {
     width: 400px;
 }
+
+/* My Stack */
+
+.myStackSection {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.myStackTitle, .myPortfolioTitle {
+    font-size: 6rem;
+    font-family: 'Jura', sans-serif;
+    align-self: flex-start;
+    margin: 0 50px;
+}
+
+.myStackContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stackCard {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: rgb(236, 232, 221);
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px rgb(236, 232, 221);
+    margin: 20px 30px;
+  }
+
+  .stackCard:hover {
+    transform:scale(1.03);
+  }
+
+  .stackCard img {
+    height: 120px;
+  }
 
 
 @media only screen and (max-width: 1024px){
@@ -109,8 +158,36 @@ body {
 
     .aboutMe {
         line-height: 2rem;
-        padding: 30px;
+        padding: 6%;
     }
 
+    /* My Stack */
+
+    .myStackSection {
+        flex-direction: column;
+    }
+
+    .myStackTitle {
+        font-size: 2.5rem;
+        align-self: unset;
+    }
+
+    .stackCard {
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+
+        width: 110px;
+        height: 140px;
+
+        margin: 10px;
+      }
+    
+      .stackCard img {
+        height: 60px;
+      }
+
+      /*  */
 
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./Useful Resources/style.css">
+    <link rel="stylesheet" href="./Useful Resources/portfolio.css">
     <title>Develop with Ahmet</title>
 </head>
 
@@ -34,19 +35,19 @@
                     Home
                 </a>
 
-                <a class="navbar-item mx-5 navLinks">
+                <a href="#about-Me" class="navbar-item mx-5 navLinks">
                     About Me
                 </a>
 
-                <a class="navbar-item mx-5 navLinks">
+                <a href="#stack" class="navbar-item mx-5 navLinks">
                     My Stack
                 </a>
 
-                <a class="navbar-item mx-5 navLinks">
+                <a href="#portfolio" class="navbar-item mx-5 navLinks">
                     Portfolio
                 </a>
 
-                <a class="navbar-item mx-5 navLinks">
+                <a href="#contact" class="navbar-item mx-5 navLinks">
                     Contact me
                 </a>
             </div>
@@ -77,11 +78,11 @@
         </div>
     </section>
 
-    <section class="aboutMe p-3">
+    <section id="about-Me" class="aboutMe p-3">
 
         <div class="aboutContainer m-3">
             <div>
-                <p class="aboutMe">As a junior software developer, I am excited to bring my passion for coding and
+                <p class="aboutMe m-3">As a junior software developer, I am excited to bring my passion for coding and
                     problem-solving to any project. I understand that I am new to this field, but I am determined to
                     learn
                     and
@@ -110,23 +111,95 @@
                     strong customer service skills. I have a strong work ethic, desire to continuously learn and am
                     eager to apply my skills and experience to my passion for full-stack development. I'm excited to
                     take on any challenge that comes my way.</p>
-                <!-- <p class="aboutMe m-3">My educational background in Business Studies at City University and a career in
-                    the
-                    construction industry has provided me with a strong foundation in problem-solving, critical thinking
-                    and
-                    attention to detail.
-                    Circumstances called for a more flexible career, where I gained customer-service skills driving for
-                    Uber.
-                    I have a strong work ethic and desire to continously learn. Now, I am excited to pursue my dream of
-                    becoming
-                    a full-stack developer. I am eager to bring my unique background and experience to any team and am
-                    excited to take on any challenge that
-                    comes my way.</p> -->
             </div>
 
         </div>
     </section>
 
+
+
+
+
+    <section id="stack" class="myStackSection">
+        <div class="myStackTitle">
+            <h2>My Tech Stack</h2>
+        </div>
+        <div class="myStackContainer">
+            <div class="stackCard">
+                <img src="./Useful Resources/images/html-5-svgrepo-com.svg" alt="">
+                <p>HTML</p>
+            </div>
+            <div class="stackCard">
+                <img src="./Useful Resources/images/css3-svgrepo-com.svg" alt="">
+                <p>CSS</p>
+            </div>
+            <div class="stackCard">
+                <img src="./Useful Resources/images/bootstrap-4-logo-svgrepo-com.svg" alt="">
+                <p>Bootstrap</p>
+            </div>
+            <div class="stackCard">
+                <img src="./Useful Resources/images/bulma-svgrepo-com.svg" alt="">
+                <p>Bulma</p>
+            </div>
+            <!-- </section>
+    <section class="myStackContainer"> -->
+            <div class="stackCard">
+                <img src="./Useful Resources/images/js-svgrepo-com.svg" alt="">
+                <p>JavaScript</p>
+            </div>
+            <div class="stackCard">
+                <img src="./Useful Resources/images/python-svgrepo-com.svg" alt="">
+                <p>Python</p>
+            </div>
+            <div class="stackCard">
+                <img src="./Useful Resources/images/sql-database-generic-svgrepo-com.svg" alt="">
+                <p>SQL</p>
+            </div>
+            <div class=" stackCard">
+                <img src="./Useful Resources/images/mongo-svgrepo-com.svg" alt="">
+                <p>MongoDB</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="myPortfolioTitle">
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="portfolioContainer">
+            <div class="portfolioCard">
+                <p><span class="enclosed">Weather</span> App</p>
+                <a href="/portfolio/weatherapp/weather.html"></a>
+            </div>
+            <div class="portfolioCard">
+                <p><span class="enclosed">Currency</span> Converter</p>
+                <a href="/portfolio/currencyconverter/currency.html"></a>
+            </div>
+            <div class="portfolioCard">
+                <p><span class="enclosed">Lottery</span> Generator</p>
+                <a href="/portfolio/lotterygenerator/lottery.html"></a>
+            </div>
+            <div class="portfolioCard">
+                <p><span class="enclosed">RPS</span> Game</p>
+                <a href="/portfolio/rockpaperscissors/index.html"></a>
+            </div>
+            <div class="portfolioCard">
+                <p><span class="enclosed">Flip</span> Game</p>
+                <a href="/portfolio/flipgame/index.html"></a>
+            </div>
+            <div class="portfolioCard">
+                <p><span class="enclosed">Quiz</span> App</p>
+                <a href="/portfolio/quizapp/index.html"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="is-flex is-align-items-center is-justify-content-center">
+        <div class="contactMe">
+            <a href="mailto:agundogdu99@gmail.com">E-mail Me!</a>
+        </div>
+    </section>
     <!-- <nav>
         <ul class="nav-ul">
             <li class="float-left">ahmet<strong>Gundogdu</strong></li>
@@ -145,6 +218,8 @@
         <p class="aboutme-p2">Fun fact: <em>From my heaviest weight - I've lost a whooping 55kg!</em> </p>
     </article> -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+    </script>
     <script src="./Useful Resources/app.js"></script>
 </body>
 
