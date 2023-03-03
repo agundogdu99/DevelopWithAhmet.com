@@ -85,7 +85,7 @@ body {
     text-align: center;
 }
 
-.myStackTitle, .myPortfolioTitle {
+.myStackTitle {
     font-size: 6rem;
     font-family: 'Jura', sans-serif;
     align-self: flex-start;
@@ -120,6 +120,18 @@ body {
 
   .stackCard img {
     height: 120px;
+  }
+
+  .myPortfolioTitle {
+    font-size: 6rem;
+    font-family: 'Jura', sans-serif;
+    margin: 0 50px;
+}
+
+  #contact {
+    margin: 50px 0;
+    padding: 50px;
+    font-size: 2rem;
   }
 
 
@@ -189,5 +201,9 @@ body {
       }
 
       /*  */
+
+      .myPortfolioTitle h2 {
+        font-size: 2.5rem;
+      }
 
 }
