@@ -15,7 +15,7 @@ body {
     color: rgb(7, 57, 97);
 }
 
-.navbar-item span, .navbar-menu .navLinks:hover {
+.navbar-item span, .navbar-menu .navLinks:hover, .contactMe a:hover {
     color: rgb(255, 0, 128);
 }
 
@@ -132,6 +132,11 @@ body {
     margin: 50px 0;
     padding: 50px;
     font-size: 2rem;
+  }
+
+  .contactMe a {
+    margin: auto 20px;
+    color: rgb(19, 5, 82);
   }
 
 
